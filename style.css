@@ -1,8 +1,6 @@
 body {
-  background-image: url(images/sky.gif);
-  background-repeat: repeat-x;
-  background-attachment: fixed;
-  background-size: contain;
+  background: url(images/sky.gif) repeat-x fixed;
+  background-size: auto 100%;
   font-family: 'VT323', monospace;
   color: rgb(254, 212, 231);
 }
@@ -40,10 +38,12 @@ a:hover {
   text-align: center;
   margin: 0 auto;
   width: 60%;
+  min-width: 400px;
 }
 .card {
   padding: 20px;
   margin: 10px;
+  min-width: 200px;
 }
 .tranparent-background {
   margin: 0 auto;
