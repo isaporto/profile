@@ -1,0 +1,71 @@
+body {
+  background-image: url(images/sky.gif);
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-size: contain;
+  font-family: 'VT323', monospace;
+  color: rgb(254, 212, 231);
+}
+h1, h2, h3 {
+  font-family: 'Press Start 2P', cursive;
+  font-weight: bold;
+  margin: 0;
+}
+h1 {
+  font-size: 20px;
+}
+h2 {
+  font-size: 15px;
+}
+h3 {
+  font-size: 12px;
+}
+p {
+  font-size: 20px;
+  line-height: 20px;
+}
+a {
+  text-decoration: none;
+  color: rgb(254, 212, 231);
+}
+a:hover {
+  color: rgba(254, 212, 231, 0.7);
+}
+
+.img-circle {
+  border-radius: 50%;
+  margin: 20px;
+}
+.container {
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
+}
+.card {
+  padding: 20px;
+  margin: 10px;
+}
+.tranparent-background {
+  margin: 0 auto;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+}
+.btn-heart {
+  font-size: 20px;
+  background-color: rgba(0,0,0,0.1);
+  padding: 10px;
+  border-radius: 50%;
+}
+.list-inline li {
+  display: inline-block;
+}
+.list-inline > ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.card > ul {
+  font-size: 40px;
+}
